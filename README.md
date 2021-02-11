@@ -1,6 +1,21 @@
 # Redmine Out of Band Auth (2FA)
 
-Redmine plugin that provides Out of Band authentication by email.
+Redmine plugin that provides Out of Band authentication by email, 2FA via email.
+
+## Install
+
+1. git clone or copy an unarchived plugin to plugins/redmine_out_of_band_auth on your Redmine path.
+2. `$ cd your_redmine_path`
+3. `$ bundle install`
+4. `$ bundle exec rake redmine:plugins:migrate NAME=redmine_out_of_band_auth RAILS_ENV=production`
+5. web service restart
+
+## Uninstall
+
+1. `$ cd your_redmine_path`
+2. `$ bundle exec rake redmine:plugins:migrate NAME=redmine_out_of_band_auth RAILS_ENV=production VERSION=0`
+3. remove plugins/redmine_out_of_band_auth
+4. web service restart
 
 ## Usage
 
@@ -22,21 +37,6 @@ Redmine plugin that provides Out of Band authentication by email.
 *Verification code*
 
 ![verification_code](https://user-images.githubusercontent.com/943541/27115125-84d8007e-5103-11e7-9a9c-8f676eaa3aad.png)
-
-## Install
-
-1. git clone or copy an unarchived plugin to plugins/redmine_out_of_band_auth on your Redmine path.
-2. `$ cd your_redmine_path`
-3. `$ bundle install`
-4. `$ bundle exec rake redmine:plugins:migrate NAME=redmine_out_of_band_auth RAILS_ENV=production`
-5. web service restart
-
-## Uninstall
-
-1. `$ cd your_redmine_path`
-2. `$ bundle exec rake redmine:plugins:migrate NAME=redmine_out_of_band_auth RAILS_ENV=production VERSION=0`
-3. remove plugins/redmine_out_of_band_auth
-4. web service restart
 
 ## License
 
