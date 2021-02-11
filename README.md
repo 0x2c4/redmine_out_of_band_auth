@@ -5,7 +5,7 @@ Redmine plugin that provides Out of Band authentication by email, 2FA via email.
 ## Install
 
 1. `$ cd your_redmine_path`
-2. `$ git clone https://github.com/0x2c4/redmine_out_of_band_auth.git plugin/redmine_out_of_band_auth
+2. `$ git clone https://github.com/0x2c4/redmine_out_of_band_auth.git plugin/redmine_out_of_band_auth`
 3. `$ bundle install`
 4. `$ bundle exec rake redmine:plugins:migrate NAME=redmine_out_of_band_auth RAILS_ENV=production`
 5. web service restart
