@@ -1,6 +1,4 @@
-# Redmine Out of Band Auth (2 factor authentication, 2FA)
-
-[![Build Status](https://travis-ci.org/matsukei/redmine_out_of_band_auth.svg?branch=master)](https://travis-ci.org/matsukei/redmine_out_of_band_auth)
+# Redmine Out of Band Auth (2FA)
 
 Redmine plugin that provides Out of Band authentication by email.
 
