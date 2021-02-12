@@ -41,3 +41,7 @@ Redmine plugin that provides Out of Band authentication by email, 2FA via email.
 ## License
 
 [The MIT License](https://opensource.org/licenses/MIT)
+
+## Oryginal author of this plugin:
+
+[matsukei](https://github.com/matsukei/redmine_out_of_band_auth)
